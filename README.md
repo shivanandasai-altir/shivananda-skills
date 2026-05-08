@@ -50,24 +50,22 @@ Skills can be nested under category folders for organization.
 
 ## Installation
 
-Clone into your pi skills directory:
+Install as a pi package:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/pi-skills.git ~/.agents/skills
+pi install git:https://github.com/shivanandasai-altir/shivananda-skills
 ```
 
-Or if you already have skills there, back up and replace:
+For project-local use:
 
 ```bash
-mv ~/.agents/skills ~/.agents/skills-backup
-git clone https://github.com/YOUR_USERNAME/pi-skills.git ~/.agents/skills
+pi install -l git:https://github.com/shivanandasai-altir/shivananda-skills
 ```
 
 ## Updating
 
 ```bash
-cd ~/.agents/skills
-git pull
+pi update git:https://github.com/shivanandasai-altir/shivananda-skills
 ```
 
 ## Adding a New Skill

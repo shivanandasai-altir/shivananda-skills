@@ -1,0 +1,22 @@
+{
+  "name": "shivananda-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shared skill library for pi coding agents.",
+  "keywords": ["pi-package"],
+  "pi": {
+    "skills": [
+      "./ai-sdk",
+      "./frontend-design",
+      "./mattpocock-engineering",
+      "./mattpocock-productivity",
+      "./react-patterns",
+      "./react-useeffect",
+      "./shadcn",
+      "./typescript",
+      "./typescript-advanced-types",
+      "./typescript-best-practices",
+      "./typescript-expert"
+    ]
+  }
+}
