@@ -68,6 +68,10 @@ pi install -l git:https://github.com/shivanandasai-altir/shivananda-skills
 pi update git:https://github.com/shivanandasai-altir/shivananda-skills
 ```
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the recommended workflow.
+
 ## Adding a New Skill
 
 1. Create a new directory: `mkdir my-skill/`
